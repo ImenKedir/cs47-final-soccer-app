@@ -3,30 +3,15 @@ import * as eva from "@eva-design/eva";
 import {
   ApplicationProvider,
   IconRegistry,
-  Layout,
-  Text,
-  Icon,
-  Button,
   BottomNavigation,
   BottomNavigationTab,
 } from "@ui-kitten/components";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { EvaIconsPack } from "@ui-kitten/eva-icons";
+import { SearchScreen, SavedScreen } from "./screens";
 
 const { Navigator, Screen } = createBottomTabNavigator();
-
-const SavedScreen = () => (
-  <Layout style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-    <Text category="h1">Saved</Text>
-  </Layout>
-);
-
-const SearchScreen = () => (
-  <Layout style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-    <Text category="h1">Search</Text>
-  </Layout>
-);
 
 const BottomTabBar = ({ navigation, state }) => (
   <BottomNavigation
@@ -45,17 +30,13 @@ const TabNavigator = () => (
   </Navigator>
 );
 
-export const AppNavigator = () => (
-  <NavigationContainer>
-    <TabNavigator />
-  </NavigationContainer>
-);
-
 export default App = () => (
   <>
     <IconRegistry icons={EvaIconsPack} />
     <ApplicationProvider {...eva} theme={eva.light}>
-      <AppNavigator />
+      <NavigationContainer>
+        <TabNavigator />
+      </NavigationContainer>
     </ApplicationProvider>
   </>
 );
