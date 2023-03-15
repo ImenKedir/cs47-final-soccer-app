@@ -1,11 +1,22 @@
 import { useState } from "react";
-import { Layout, Button, Icon, Text, Input } from "@ui-kitten/components";
+import { Layout, Button, Icon, Input, Text } from "@ui-kitten/components";
 
 const SearchIcon = (props) => {
   return <Icon {...props} name="search" />;
 };
 
-const SearchBar = ({ query, setQuery, handleSearch }) => {
+const SearchBar = ({ setQueryUrl }) => {
+  const [userQuery, setUserQuery] = useState("");
+
+  const handleSearch = () => {
+    if (userQuery) {
+      const baseUrl = "https://footapi7.p.rapidapi.com/api/search/";
+      setQueryUrl(baseUrl + encodeURIComponent(userQuery));
+    } else {
+      setQueryUrl(undefined);
+    }
+  };
+
   return (
     <Layout
       style={{
@@ -19,8 +30,8 @@ const SearchBar = ({ query, setQuery, handleSearch }) => {
       <Input
         style={{ flex: 1, height: "100%" }}
         placeholder="Search Players or Teams"
-        value={query}
-        onChangeText={(nextValue) => setQuery(nextValue)}
+        value={userQuery}
+        onChangeText={(nextValue) => setUserQuery(nextValue)}
       />
       <Button
         style={{ marginLeft: 8, height: "100%" }}
@@ -33,12 +44,20 @@ const SearchBar = ({ query, setQuery, handleSearch }) => {
   );
 };
 
-export default SearchScreen = () => {
-  const [query, setQuery] = useState("");
-
-  const handleSearch = () => {
-    console.log(query);
+const SearchResults = ({ queryUrl }) => {
+  const options = {
+    method: "GET",
+    headers: {
+      "X-RapidAPI-Key": "9c782cb778mshdff4d637bd8ea40p1c1297jsn57c654201f88",
+      "X-RapidAPI-Host": "footapi7.p.rapidapi.com",
+    },
   };
+
+  return <Text category="h1">{queryUrl}</Text>;
+};
+
+export default SearchScreen = () => {
+  const [queryUrl, setQueryUrl] = useState(undefined);
 
   return (
     <Layout
@@ -49,11 +68,8 @@ export default SearchScreen = () => {
         alignItems: "center",
       }}
     >
-      <SearchBar
-        query={query}
-        setQuery={setQuery}
-        handleSearch={handleSearch}
-      />
+      <SearchBar setQueryUrl={setQueryUrl} />
+      {queryUrl && <SearchResults queryUrl={queryUrl} />}
     </Layout>
   );
 };

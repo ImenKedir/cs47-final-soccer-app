@@ -18,15 +18,15 @@ const BottomTabBar = ({ navigation, state }) => (
     selectedIndex={state.index}
     onSelect={(index) => navigation.navigate(state.routeNames[index])}
   >
-    <BottomNavigationTab title="SEARCH" />
-    <BottomNavigationTab title="SAVED" />
+    <BottomNavigationTab title="Search" />
+    <BottomNavigationTab title="Saved" />
   </BottomNavigation>
 );
 
 const TabNavigator = () => (
   <Navigator tabBar={(props) => <BottomTabBar {...props} />}>
-    <Screen name="SEARCH" component={SearchScreen} />
-    <Screen name="SAVED" component={SavedScreen} />
+    <Screen name="Search" component={SearchScreen} />
+    <Screen name="Saved" component={SavedScreen} />
   </Navigator>
 );
 
