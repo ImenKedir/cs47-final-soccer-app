@@ -5,7 +5,7 @@ const SearchIcon = (props) => {
   return <Icon {...props} name="search" />;
 };
 
-export default SearchBar = ({ setQueryUrl }) => {
+const SearchBar = ({ setQueryUrl }) => {
   const [userQuery, setUserQuery] = useState("");
 
   const handleSearch = () => {
@@ -43,3 +43,5 @@ export default SearchBar = ({ setQueryUrl }) => {
     </Layout>
   );
 };
+
+export default SearchBar;
