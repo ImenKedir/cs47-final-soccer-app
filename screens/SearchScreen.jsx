@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Layout, Button, Icon, Input, Text } from "@ui-kitten/components";
+import { RAPID_API_KEY, RAPID_API_HOST } from "@env";
 
 const SearchIcon = (props) => {
   return <Icon {...props} name="search" />;
@@ -48,10 +49,15 @@ const SearchResults = ({ queryUrl }) => {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "9c782cb778mshdff4d637bd8ea40p1c1297jsn57c654201f88",
-      "X-RapidAPI-Host": "footapi7.p.rapidapi.com",
+      "X-RapidAPI-Key": RAPID_API_KEY,
+      "X-RapidAPI-Host": RAPID_API_HOST,
     },
   };
+
+  fetch(queryUrl, options)
+    .then((response) => response.json())
+    .then((response) => console.log(response))
+    .catch((err) => console.error(err));
 
   return <Text category="h1">{queryUrl}</Text>;
 };
