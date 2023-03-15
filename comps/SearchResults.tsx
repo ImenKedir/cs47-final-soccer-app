@@ -24,7 +24,7 @@ const SearchResults = ({ queryUrl }) => {
     featchData();
   }, [queryUrl]);
 
-  data && console.log(data);
+  data && console.log(data.results);
 
   return <>{data ? <Text>data</Text> : <Text>Loading...</Text>}</>;
 };
