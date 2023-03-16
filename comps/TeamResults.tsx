@@ -34,25 +34,24 @@ const TeamResultFooter = ({ item, visible, setVisible }) => {
           flex: 1,
           flexDirection: "row",
           justifyContent: "space-between",
+          alignItems: "center",
           padding: 8,
           borderRadius: 8,
         }}
         level="2"
       >
         <Text>{item.entity.nameCode}</Text>
-        <Text>{item.entity.country.name}</Text>
+        <Button
+          size="small"
+          appearance="outline"
+          onPress={() => setVisible(!visible)}
+        >
+          {visible ? "Less" : "More"}
+        </Button>
       </Layout>
       <View style={{ marginVertical: 8 }} />
       <TeamMoreInfo item={item} visible={visible} />
       <View style={{ marginVertical: 8 }} />
-      <ButtonGroup
-        style={{ flex: 1, justifyContent: "space-between" }}
-        appearance="outline"
-      >
-        <Button style={{ flex: 1 }} onPress={() => setVisible(!visible)}>
-          {visible ? "Less" : "More"}
-        </Button>
-      </ButtonGroup>
     </>
   );
 };
