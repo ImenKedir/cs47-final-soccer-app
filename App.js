@@ -18,8 +18,8 @@ const BottomTabBar = ({ navigation, state }) => (
     selectedIndex={state.index}
     onSelect={(index) => navigation.navigate(state.routeNames[index])}
   >
-    <BottomNavigationTab title="Search" />
-    <BottomNavigationTab title="Saved" />
+    <BottomNavigationTab style={{padding: 8}} title="Search" />
+    <BottomNavigationTab style={{padding: 8}} title="Saved" />
   </BottomNavigation>
 );
 

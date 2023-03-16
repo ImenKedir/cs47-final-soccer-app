@@ -29,7 +29,7 @@ const SearchBar = ({ setQueryUrl }) => {
     >
       <Input
         style={{ flex: 1, height: "100%" }}
-        placeholder="Search for players or teams"
+        placeholder="Search for teams or players"
         value={userQuery}
         onChangeText={(nextValue) => setUserQuery(nextValue)}
       />

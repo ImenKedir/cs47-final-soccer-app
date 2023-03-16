@@ -39,10 +39,10 @@ const SearchResults = ({ queryUrl }) => {
         selectedIndex={selectedTab}
         onSelect={(index) => setSelectedTab(index)}
       >
-        <Tab title="Players">
+        <Tab style={{ padding: 8 }} title="Players">
           <PlayerResults data={data} />
         </Tab>
-        <Tab title="Teams">
+        <Tab style={{ padding: 8 }} title="Teams">
           <TeamResults data={data} />
         </Tab>
       </TabView>
