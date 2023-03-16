@@ -1,2 +1,4 @@
-export { default as SearchScreen } from "./SearchScreen";
-export { default as SavedScreen } from "./SavedScreen";
+import SearchScreen from "./SearchScreen";
+import SavedScreen from "./SavedScreen";
+
+export { SearchScreen, SavedScreen };

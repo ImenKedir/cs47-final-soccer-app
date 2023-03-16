@@ -1,5 +1,7 @@
-export { default as SearchBar } from "./SearchBar";
-export { default as SearchResults } from "./SearchResults";
-export { default as PlayerResults } from "./PlayerResults";
-export { default as TeamResults } from "./TeamResults";
-export { default as PlayerInfo } from "./PlayerModal";
+import SearchBar from "./SearchBar";
+import SearchResults from "./SearchResults";
+import PlayerResults from "./PlayerResults";
+import TeamResults from "./TeamResults";
+import PlayerInfo from "./PlayerInfo";
+
+export { SearchBar, SearchResults, PlayerResults, TeamResults, PlayerInfo };
