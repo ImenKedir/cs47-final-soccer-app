@@ -28,11 +28,11 @@ const SearchResults = ({ queryUrl }) => {
       setLoading(true);
       fetch(queryUrl, options)
         .then((response) => response.json())
-        .then((response) => setData(response.results))
+        .then((response) => {
+          setData(response.results);
+          setLoading(false);
+        })
         .catch((err) => console.error(err));
-      setTimeout(function () {
-        setLoading(false);
-      }, 1000);
     };
     if (queryUrl) {
       featchData();
