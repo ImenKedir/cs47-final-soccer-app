@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { TabView, Tab, Icon } from "@ui-kitten/components";
+import { TabView, Tab, Icon, Text, Spinner } from "@ui-kitten/components";
 import { PlayerResults, TeamResults } from ".";
 import * as fakeData from "../dummyResponse.json";
 // @ts-ignore
@@ -12,6 +12,7 @@ const TeamsIcon = (props) => <Icon name="people" {...props} />;
 const SearchResults = ({ queryUrl }) => {
   const [selectedTab, setSelectedTab] = useState(0);
   const [data, setData] = useState(fakeData.results);
+  const [loading, setLoading] = useState(false);
 
   const options = {
     method: "GET",
@@ -23,16 +24,33 @@ const SearchResults = ({ queryUrl }) => {
 
   useEffect(() => {
     const featchData = async () => {
+      setLoading(true);
       fetch(queryUrl, options)
         .then((response) => response.json())
         .then((response) => setData(response.results))
         .catch((err) => console.error(err));
+      setTimeout(function () {
+        setLoading(false);
+      }, 1000);
     };
-
     if (queryUrl) {
       featchData();
     }
   }, [queryUrl]);
+
+  console.log(loading);
+
+  if (loading) {
+    return <Spinner size='giant'/>
+  }
+
+  if (!data) {
+    return (
+      <Text category="h5" style={{ marginVertical: 64 }}>
+        No results found
+      </Text>
+    );
+  }
 
   return (
     <TabView

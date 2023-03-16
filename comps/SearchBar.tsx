@@ -32,6 +32,7 @@ const SearchBar = ({ setQueryUrl }) => {
         placeholder="Search for teams or players"
         value={userQuery}
         onChangeText={(nextValue) => setUserQuery(nextValue)}
+        onSubmitEditing={handleSearch}
       />
       <Button
         style={{ marginLeft: 8, height: "100%" }}

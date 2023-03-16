@@ -6,10 +6,11 @@ import {
   Text,
   Button,
   ButtonGroup,
-  Modal,
+  Avatar,
 } from "@ui-kitten/components";
 import { View } from "react-native";
 import { useState } from "react";
+import { PlayerInfo } from ".";
 
 const PlayerResultHeader = ({ item }) => {
   return (
@@ -21,8 +22,7 @@ const PlayerResultHeader = ({ item }) => {
         padding: 4,
       }}
     >
-      <Text category="h4">{item.entity.name}</Text>
-      <Text category="h4">{item.entity.position}</Text>
+      <Text category="h5">{item.entity.name}</Text>
     </Layout>
   );
 };
@@ -58,47 +58,6 @@ const PlayerResultFooter = ({ item, setVisible }) => {
   );
 };
 
-const PlayerModal = ({ item, visible, setVisible }) => {
-  return (
-    <Modal
-      style={{ flex: 1, width: "100%", marginHorizontal: 8 }}
-      visible={visible}
-    >
-      <Card disabled={true} style={{ flex: 1 }}>
-        <Layout
-          style={{
-            flex: 1,
-            flexDirection: "row",
-            justifyContent: "space-between",
-            padding: 4,
-          }}
-        >
-          <Text category="h4">{item.entity.name}</Text>
-          <Text category="h4">{item.entity.position}</Text>
-        </Layout>
-        <Divider style={{ marginVertical: 8 }} />
-        <Layout
-          style={{
-            flex: 1,
-            flexDirection: "row",
-            justifyContent: "space-between",
-            padding: 8,
-            borderRadius: 8,
-          }}
-          level="2"
-        >
-          <Text>{item.entity.team.name}</Text>
-          <Text>{item.entity.country.name}</Text>
-        </Layout>
-        <View style={{ height: 8 }} />
-        <Button appearance="outline" onPress={() => setVisible(false)}>
-          DISMISS
-        </Button>
-      </Card>
-    </Modal>
-  );
-};
-
 const PlayerResult = ({ item }) => {
   const [visible, setVisible] = useState(false);
 
@@ -107,7 +66,7 @@ const PlayerResult = ({ item }) => {
       <PlayerResultHeader item={item} />
       <Divider style={{ marginVertical: 8 }} />
       <PlayerResultFooter item={item} setVisible={setVisible} />
-      <PlayerModal item={item} visible={visible} setVisible={setVisible} />
+      <PlayerInfo item={item} visible={visible} setVisible={setVisible} />
     </Card>
   );
 };

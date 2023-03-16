@@ -27,7 +27,6 @@ const TeamResults = ({ data }) => {
             }}
           >
             <Text category="h4">{item.entity.name}</Text>
-            <Text category="h4">{item.entity.gender}</Text>
           </Layout>
           <Divider style={{ marginVertical: 8 }} />
           <Layout
