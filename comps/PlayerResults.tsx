@@ -6,12 +6,16 @@ import {
   Text,
   Button,
   ButtonGroup,
+  Icon,
 } from "@ui-kitten/components";
-import { View } from "react-native";
+import { View, Pressable } from "react-native";
 import { useState } from "react";
 import PlayerMoreInfo from "./PlayerMoreInfo";
 
 const PlayerResultHeader = ({ item }) => {
+  // state to update the heart
+  const [heart, setHeart] = useState(true);
+
   return (
     <Layout
       style={{
@@ -22,6 +26,19 @@ const PlayerResultHeader = ({ item }) => {
       }}
     >
       <Text category="h5">{item.entity.shortName}</Text>
+      {/* We're gonna put the heart right here  */}
+
+      <Pressable onPress={() => setHeart(!heart)}>
+        {heart ? (
+          <Icon
+            style={{ width: 40, height: 40 }}
+            name="heart-outline"
+            fill="#8F9BB3"
+          />
+        ) : (
+          <Icon style={{ width: 40, height: 40 }} name="heart" fill="#8F9BB3" />
+        )}
+      </Pressable>
     </Layout>
   );
 };
