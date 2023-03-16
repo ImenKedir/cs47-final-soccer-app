@@ -16,7 +16,7 @@ const PlayerInfoCard = ({ item }) => {
   );
 };
 
-const PlayerInfo = ({ item, visible }) => {
+const PlayerMoreInfo = ({ item, visible }) => {
   if (visible) {
     return <PlayerInfoCard item={item} />;
   } else {
@@ -24,4 +24,4 @@ const PlayerInfo = ({ item, visible }) => {
   }
 };
 
-export default PlayerInfo;
+export default PlayerMoreInfo;

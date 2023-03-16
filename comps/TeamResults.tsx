@@ -9,7 +9,7 @@ import {
 } from "@ui-kitten/components";
 import { View } from "react-native";
 import { useState } from "react";
-import TeamInfo from "./TeamInfo";
+import TeamMoreInfo from "./TeamMoreInfo";
 
 const TeamResultsHeader = ({ item }) => {
   return (
@@ -43,7 +43,7 @@ const TeamResultFooter = ({ item, visible, setVisible }) => {
         <Text>{item.entity.country.name}</Text>
       </Layout>
       <View style={{ marginVertical: 8 }} />
-      <TeamInfo item={item} visible={visible} />
+      <TeamMoreInfo item={item} visible={visible} />
       <View style={{ marginVertical: 8 }} />
       <ButtonGroup
         style={{ flex: 1, justifyContent: "space-between" }}

@@ -10,7 +10,7 @@ const TeamInfoCard = ({ item }) => {
   );
 };
 
-const TeamInfo = ({ item, visible }) => {
+const TeamMoreInfo = ({ item, visible }) => {
   if (visible) {
     return <TeamInfoCard item={item} />;
   } else {
@@ -18,4 +18,4 @@ const TeamInfo = ({ item, visible }) => {
   }
 };
 
-export default TeamInfo;
+export default TeamMoreInfo;
