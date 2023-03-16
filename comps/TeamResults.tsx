@@ -52,7 +52,6 @@ const TeamResultFooter = ({ item, visible, setVisible }) => {
         <Button style={{ flex: 1 }} onPress={() => setVisible(!visible)}>
           {visible ? "Less" : "More"}
         </Button>
-        <Button style={{ flex: 1 }}>Save</Button>
       </ButtonGroup>
     </>
   );

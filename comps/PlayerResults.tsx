@@ -26,17 +26,15 @@ const PlayerResultHeader = ({ item }) => {
       }}
     >
       <Text category="h5">{item.entity.shortName}</Text>
-      {/* We're gonna put the heart right here  */}
-
       <Pressable onPress={() => setHeart(!heart)}>
         {heart ? (
           <Icon
-            style={{ width: 40, height: 40 }}
+            style={{ width: 32, height: 32 }}
             name="heart-outline"
             fill="#8F9BB3"
           />
         ) : (
-          <Icon style={{ width: 40, height: 40 }} name="heart" fill="#8F9BB3" />
+          <Icon style={{ width: 32, height: 32 }} name="heart" fill="#8F9BB3" />
         )}
       </Pressable>
     </Layout>
@@ -51,27 +49,24 @@ const PlayerResultFooter = ({ item, visible, setVisible }) => {
           flex: 1,
           flexDirection: "row",
           justifyContent: "space-between",
+          alignItems: "center",
           padding: 8,
           borderRadius: 8,
         }}
         level="2"
       >
         <Text>{item.entity.team.name}</Text>
-        <Text>{item.entity.country.name}</Text>
+        <Button
+          size="small"
+          appearance="outline"
+          onPress={() => setVisible(!visible)}
+        >
+          {visible ? "Less" : "More"}
+        </Button>
       </Layout>
       <View style={{ height: 8 }} />
       <PlayerMoreInfo item={item} visible={visible} />
       <View style={{ height: 8 }} />
-      <ButtonGroup
-        style={{ flex: 1, justifyContent: "space-between" }}
-        appearance="outline"
-      >
-        <View style={{ height: 8 }} />
-        <Button style={{ flex: 1 }} onPress={() => setVisible(!visible)}>
-          {visible ? "Less" : "More"}
-        </Button>
-        <Button style={{ flex: 1 }}>Save</Button>
-      </ButtonGroup>
     </>
   );
 };
