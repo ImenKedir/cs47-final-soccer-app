@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Layout } from "@ui-kitten/components";
-import SearchBar from "../comps/SearchBar";
-import SearchResults from "../comps/SearchResults";
+import { SearchBar, SearchResults } from "../comps";
 
 export default SearchScreen = () => {
   const [queryUrl, setQueryUrl] = useState(undefined);
@@ -16,7 +15,7 @@ export default SearchScreen = () => {
       }}
     >
       <SearchBar setQueryUrl={setQueryUrl} />
-      {queryUrl && <SearchResults queryUrl={queryUrl} />}
+      <SearchResults queryUrl={queryUrl} />
     </Layout>
   );
 };

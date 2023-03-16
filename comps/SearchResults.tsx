@@ -1,10 +1,15 @@
 import { useState, useEffect } from "react";
-import { Text } from "@ui-kitten/components";
+import { TabView, Tab } from "@ui-kitten/components";
+import { PlayerResults, TeamResults } from ".";
+
 // @ts-ignore
 import { RAPID_API_KEY, RAPID_API_HOST } from "@env";
+import * as fakeData from "../dummyResponse.json";
+const defaultData = fakeData.results;
 
 const SearchResults = ({ queryUrl }) => {
-  const [data, setData] = useState(undefined);
+  const [selectedTab, setSelectedTab] = useState(0);
+  const [data, setData] = useState(fakeData.results);
 
   const options = {
     method: "GET",
@@ -18,15 +23,31 @@ const SearchResults = ({ queryUrl }) => {
     const featchData = async () => {
       fetch(queryUrl, options)
         .then((response) => response.json())
-        .then((response) => setData(response))
+        .then((response) => setData(response.results))
         .catch((err) => console.error(err));
     };
-    featchData();
+
+    if (queryUrl) {
+      featchData();
+    }
   }, [queryUrl]);
 
-  data && console.log(data.results);
-
-  return <>{data ? <Text>data</Text> : <Text>Loading...</Text>}</>;
+  return (
+    <>
+      <TabView
+        style={{ flex: 1, width: "100%" }}
+        selectedIndex={selectedTab}
+        onSelect={(index) => setSelectedTab(index)}
+      >
+        <Tab title="Players">
+          <PlayerResults data={data} />
+        </Tab>
+        <Tab title="Teams">
+          <TeamResults data={data} />
+        </Tab>
+      </TabView>
+    </>
+  );
 };
 
 export default SearchResults;

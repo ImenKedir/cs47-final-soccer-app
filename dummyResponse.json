@@ -1,0 +1,2554 @@
+{
+  "results": [
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": false,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": "M",
+        "id": 17,
+        "lastName": null,
+        "name": "Manchester City",
+        "nameCode": "MCI",
+        "national": false,
+        "position": null,
+        "ranking": null,
+        "shortName": "Man. City",
+        "slug": "manchester-city",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "team": null,
+        "teamColors": {
+          "primary": "#66ccff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 1101550
+      },
+      "score": 4161012990,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "NO",
+          "name": "Norway"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 839956,
+        "lastName": "",
+        "name": "Erling Haaland",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "E. Haaland",
+        "slug": "erling-haaland",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 234071
+      },
+      "score": 766718460,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "BE",
+          "name": "Belgium"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 70996,
+        "lastName": "",
+        "name": "Kevin De Bruyne",
+        "nameCode": null,
+        "national": null,
+        "position": "M",
+        "ranking": null,
+        "shortName": "K. De Bruyne",
+        "slug": "kevin-de-bruyne",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 134376
+      },
+      "score": 440159456,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "DZ",
+          "name": "Algeria"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 158213,
+        "lastName": null,
+        "name": "Riyad Mahrez",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "R. Mahrez",
+        "slug": "riyad-mahrez",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 49927
+      },
+      "score": 170781712,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "AR",
+          "name": "Argentina"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 944656,
+        "lastName": "",
+        "name": "Julián Álvarez",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "J. Álvarez",
+        "slug": "julian-alvarez",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 38374
+      },
+      "score": 125697136,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 859765,
+        "lastName": "",
+        "name": "Phil Foden",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "P. Foden",
+        "slug": "phil-foden",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 35555
+      },
+      "score": 122245728,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "PT",
+          "name": "Portugal"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 331209,
+        "lastName": "",
+        "name": "Bernardo Silva",
+        "nameCode": null,
+        "national": null,
+        "position": "M",
+        "ranking": null,
+        "shortName": "B. Silva",
+        "slug": "bernardo-silva",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 21154
+      },
+      "score": 69291640,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 189061,
+        "lastName": "",
+        "name": "Jack Grealish",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "J. Grealish",
+        "slug": "jack-grealish",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 20856
+      },
+      "score": 69133040,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": false,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": "F",
+        "id": 142658,
+        "lastName": null,
+        "name": "Manchester City W.F.C.",
+        "nameCode": "MCI",
+        "national": false,
+        "position": null,
+        "ranking": null,
+        "shortName": "Man. City",
+        "slug": "manchester-city-wfc",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "team": null,
+        "teamColors": {
+          "primary": "#66ccff",
+          "secondary": "#2d6f82",
+          "text": "#2d6f82"
+        },
+        "type": 0,
+        "userCount": 13695
+      },
+      "score": 56576256,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 254491,
+        "lastName": null,
+        "name": "Ederson",
+        "nameCode": null,
+        "national": null,
+        "position": "G",
+        "ranking": null,
+        "shortName": "Ederson",
+        "slug": "ederson",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 11857
+      },
+      "score": 41804724,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "PT",
+          "name": "Portugal"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 318941,
+        "lastName": "",
+        "name": "Rúben Dias",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "R. Dias",
+        "slug": "ruben-dias",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 11341
+      },
+      "score": 38992796,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "DE",
+          "name": "Germany"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 45853,
+        "lastName": "",
+        "name": "İlkay Gündoğan",
+        "nameCode": null,
+        "national": null,
+        "position": "M",
+        "ranking": null,
+        "shortName": "İ. Gündoğan",
+        "slug": "ilkay-gundogan",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 10310
+      },
+      "score": 33771240,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": false,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": "M",
+        "id": 36544,
+        "lastName": null,
+        "name": "Manchester City U21",
+        "nameCode": "MAC",
+        "national": false,
+        "position": null,
+        "ranking": null,
+        "shortName": "Man. City",
+        "slug": "manchester-city-u21",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "team": null,
+        "teamColors": {
+          "primary": "#82c2ff",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "type": 0,
+        "userCount": 8310
+      },
+      "score": 33736352,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 827606,
+        "lastName": "",
+        "name": "Rodri",
+        "nameCode": null,
+        "national": null,
+        "position": "M",
+        "ranking": null,
+        "shortName": "Rodri",
+        "slug": "rodri",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 8960
+      },
+      "score": 32415864,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 44614,
+        "lastName": "",
+        "name": "Kyle Walker",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "K. Walker",
+        "slug": "kyle-walker",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 7614
+      },
+      "score": 25857606,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": false,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": "M",
+        "id": 120856,
+        "lastName": null,
+        "name": "Manchester City U19",
+        "nameCode": "MAC",
+        "national": false,
+        "position": null,
+        "ranking": null,
+        "shortName": "Man. City",
+        "slug": "manchester-city-u19",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "team": null,
+        "teamColors": {
+          "primary": "#66ccff",
+          "secondary": "#2d6f82",
+          "text": "#2d6f82"
+        },
+        "type": 0,
+        "userCount": 4759
+      },
+      "score": 20748874,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 149734,
+        "lastName": "",
+        "name": "Aymeric Laporte",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "A. Laporte",
+        "slug": "aymeric-laporte",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 6354
+      },
+      "score": 20569794,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 152077,
+        "lastName": null,
+        "name": "John Stones",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "J. Stones",
+        "slug": "john-stones",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 6055
+      },
+      "score": 20563148,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "NL",
+          "name": "Netherlands"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 149663,
+        "lastName": null,
+        "name": "Nathan Aké",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "N. Aké",
+        "slug": "nathan-ake",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 5552
+      },
+      "score": 19088968,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "CH",
+          "name": "Switzerland"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 383560,
+        "lastName": "",
+        "name": "Manuel Akanji",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "M. Akanji",
+        "slug": "manuel-akanji",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 4447
+      },
+      "score": 16224406,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 786028,
+        "lastName": null,
+        "name": "Kalvin Phillips",
+        "nameCode": null,
+        "national": null,
+        "position": "M",
+        "ranking": null,
+        "shortName": "K. Phillips",
+        "slug": "kalvin-phillips",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 4406
+      },
+      "score": 14263536,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 982780,
+        "lastName": "",
+        "name": "Cole Palmer",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "C. Palmer",
+        "slug": "cole-palmer",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 3537
+      },
+      "score": 12121877,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "FR",
+          "name": "France"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 139225,
+        "lastName": null,
+        "name": "Benjamin Mendy",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "B. Mendy",
+        "slug": "benjamin-mendy",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 3294
+      },
+      "score": 10876305,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "AR",
+          "name": "Argentina"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "Maximo Perrone",
+        "gender": null,
+        "id": 1086286,
+        "lastName": "",
+        "name": "Maximo Perrone",
+        "nameCode": null,
+        "national": null,
+        "position": "M",
+        "ranking": null,
+        "shortName": "M. Perrone",
+        "slug": "maximo-perrone",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 2968
+      },
+      "score": 9921022,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 855835,
+        "lastName": "",
+        "name": "Sergio Gómez",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "S. Gómez",
+        "slug": "sergio-gomez",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 2941
+      },
+      "score": 9866843,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "Rico Lewis",
+        "gender": null,
+        "id": 1136731,
+        "lastName": "",
+        "name": "Rico Lewis",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "R. Lewis",
+        "slug": "rico-lewis",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 2171
+      },
+      "score": 7464364.5,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "DE",
+          "name": "Germany"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 125274,
+        "lastName": null,
+        "name": "Stefan Ortega",
+        "nameCode": null,
+        "national": null,
+        "position": "G",
+        "ranking": null,
+        "shortName": "S. Ortega",
+        "slug": "stefan-ortega",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 1483
+      },
+      "score": 4915818,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 716,
+        "lastName": "",
+        "name": "Scott Carson",
+        "nameCode": null,
+        "national": null,
+        "position": "G",
+        "ranking": null,
+        "shortName": "S. Carson",
+        "slug": "scott-carson",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 17,
+          "name": "Manchester City",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 1101550
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 1175
+      },
+      "score": 3979007.8,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "PT",
+          "name": "Portugal"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "Carlos Borges",
+        "gender": null,
+        "id": 1069486,
+        "lastName": "",
+        "name": "Carlos Borges",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "C. Borges",
+        "slug": "carlos-borges",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 36544,
+          "name": "Manchester City U21",
+          "nameCode": "MAC",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-u21",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "type": 0,
+          "userCount": 8310
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 751
+      },
+      "score": 2455563.5,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "VE",
+          "name": "Venezuela"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 542250,
+        "lastName": "",
+        "name": "Deyna Castellanos",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "D. Castellanos",
+        "slug": "castellanos-deyna",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "F",
+          "id": 142658,
+          "name": "Manchester City W.F.C.",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-wfc",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#2d6f82",
+            "text": "#2d6f82"
+          },
+          "type": 0,
+          "userCount": 13695
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 769
+      },
+      "score": 2411048.8,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "AR",
+          "name": "Argentina"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 989829,
+        "lastName": "",
+        "name": "Darío Sarmiento",
+        "nameCode": null,
+        "national": null,
+        "position": "M",
+        "ranking": null,
+        "shortName": "D. Sarmiento",
+        "slug": "dario-sarmiento",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 36544,
+          "name": "Manchester City U21",
+          "nameCode": "MAC",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-u21",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "type": 0,
+          "userCount": 8310
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 667
+      },
+      "score": 2109958.5,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "NO",
+          "name": "Norway"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "Oscar Bobb",
+        "gender": null,
+        "id": 1065216,
+        "lastName": "",
+        "name": "Oscar Bobb",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "O. Bobb",
+        "slug": "oscar-bobb",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 36544,
+          "name": "Manchester City U21",
+          "nameCode": "MAC",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-u21",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "type": 0,
+          "userCount": 8310
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 444
+      },
+      "score": 1471762,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 95925,
+        "lastName": "",
+        "name": "Alex Greenwood",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "A. Greenwood",
+        "slug": "alex-greenwood",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "F",
+          "id": 142658,
+          "name": "Manchester City W.F.C.",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-wfc",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#2d6f82",
+            "text": "#2d6f82"
+          },
+          "type": 0,
+          "userCount": 13695
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 459
+      },
+      "score": 1461233.2,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "AU",
+          "name": "Australia"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 232127,
+        "lastName": null,
+        "name": "Mandurah City",
+        "nameCode": "MCI",
+        "national": false,
+        "position": null,
+        "ranking": null,
+        "shortName": "Mandurah City",
+        "slug": "mandurah-city",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "team": null,
+        "teamColors": {
+          "primary": "#52b030",
+          "secondary": "#52b030",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 309
+      },
+      "score": 1409705.4,
+      "type": "team"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 112968,
+        "lastName": null,
+        "name": "Ellen White",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "E. White",
+        "slug": "ellen-white",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "F",
+          "id": 142658,
+          "name": "Manchester City W.F.C.",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-wfc",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#2d6f82",
+            "text": "#2d6f82"
+          },
+          "type": 0,
+          "userCount": 13695
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 416
+      },
+      "score": 1370849.1,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 945467,
+        "lastName": "",
+        "name": "Chloe Kelly",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "C. Kelly",
+        "slug": "kelly-chloe",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "F",
+          "id": 142658,
+          "name": "Manchester City W.F.C.",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-wfc",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#2d6f82",
+            "text": "#2d6f82"
+          },
+          "type": 0,
+          "userCount": 13695
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 412
+      },
+      "score": 1366279.2,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "JM",
+          "name": "Jamaica"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 985590,
+        "lastName": "",
+        "name": "Khadija Shaw",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "K. Shaw",
+        "slug": "shaw-khadija",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "F",
+          "id": 142658,
+          "name": "Manchester City W.F.C.",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-wfc",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#2d6f82",
+            "text": "#2d6f82"
+          },
+          "type": 0,
+          "userCount": 13695
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 384
+      },
+      "score": 1250757.4,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 838441,
+        "lastName": null,
+        "name": "Leila Ouahabi",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "L. Ouahabi",
+        "slug": "leila-ouahabi",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "F",
+          "id": 142658,
+          "name": "Manchester City W.F.C.",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-wfc",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#2d6f82",
+            "text": "#2d6f82"
+          },
+          "type": 0,
+          "userCount": 13695
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 371
+      },
+      "score": 1208414.1,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 945470,
+        "lastName": null,
+        "name": "Lauren Hemp",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "L. Hemp",
+        "slug": "hemp-lauren",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "F",
+          "id": 142658,
+          "name": "Manchester City W.F.C.",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-wfc",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#2d6f82",
+            "text": "#2d6f82"
+          },
+          "type": 0,
+          "userCount": 13695
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 319
+      },
+      "score": 1051204,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 998763,
+        "lastName": "",
+        "name": "Finley Burns",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "F. Burns",
+        "slug": "finley-burns",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 36544,
+          "name": "Manchester City U21",
+          "nameCode": "MAC",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-u21",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "type": 0,
+          "userCount": 8310
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 301
+      },
+      "score": 974426.8,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 1010870,
+        "lastName": "",
+        "name": "Ben Knight",
+        "nameCode": null,
+        "national": null,
+        "position": "M",
+        "ranking": null,
+        "shortName": "B. Knight",
+        "slug": "ben-knight",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 36544,
+          "name": "Manchester City U21",
+          "nameCode": "MAC",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-u21",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "type": 0,
+          "userCount": 8310
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 276
+      },
+      "score": 914879.1,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "IE",
+          "name": "Ireland"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": null,
+        "gender": null,
+        "id": 328701,
+        "lastName": null,
+        "name": "Ryan Manning",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "R. Manning",
+        "slug": "ryan-manning",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": null,
+          "gender": "M",
+          "id": 74,
+          "name": "Swansea City",
+          "nameCode": "SWA",
+          "national": false,
+          "ranking": null,
+          "shortName": "Swansea",
+          "slug": "swansea-city",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "type": 0,
+          "userCount": 18835
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 222
+      },
+      "score": 772877.06,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "AU",
+          "name": "Australia"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 1067119,
+        "lastName": "",
+        "name": "Alex Robertson",
+        "nameCode": null,
+        "national": null,
+        "position": "M",
+        "ranking": null,
+        "shortName": "A. Robertson",
+        "slug": "alex-robertson",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 36544,
+          "name": "Manchester City U21",
+          "nameCode": "MAC",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-u21",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "type": 0,
+          "userCount": 8310
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 216
+      },
+      "score": 683284.94,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "NX",
+          "name": "Northern Ireland"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 1131449,
+        "lastName": "",
+        "name": "Shea Charles",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "S. Charles",
+        "slug": "shea-charles",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 36544,
+          "name": "Manchester City U21",
+          "nameCode": "MAC",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-u21",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "type": 0,
+          "userCount": 8310
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 194
+      },
+      "score": 634326.6,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "SX",
+          "name": "Scotland"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "Adedire Mebude",
+        "gender": null,
+        "id": 1144096,
+        "lastName": "",
+        "name": "Adedire Mebude",
+        "nameCode": null,
+        "national": null,
+        "position": "F",
+        "ranking": null,
+        "shortName": "A. Mebude",
+        "slug": "adedire-mebude",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 36544,
+          "name": "Manchester City U21",
+          "nameCode": "MAC",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-u21",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "type": 0,
+          "userCount": 8310
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 184
+      },
+      "score": 587021.3,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "Jadel",
+        "gender": null,
+        "id": 1142702,
+        "lastName": "Katongo",
+        "name": "Jadel Katongo",
+        "nameCode": null,
+        "national": null,
+        "position": "D",
+        "ranking": null,
+        "shortName": "J. Katongo",
+        "slug": "jadel-katongo",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 36544,
+          "name": "Manchester City U21",
+          "nameCode": "MAC",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-u21",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "type": 0,
+          "userCount": 8310
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 158
+      },
+      "score": 511493.12,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "JP",
+          "name": "Japan"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 861352,
+        "lastName": "",
+        "name": "Yui Hasegawa",
+        "nameCode": null,
+        "national": null,
+        "position": "M",
+        "ranking": null,
+        "shortName": "Y. Hasegawa",
+        "slug": "hasegawa-yui",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "F",
+          "id": 142658,
+          "name": "Manchester City W.F.C.",
+          "nameCode": "MCI",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-wfc",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#66ccff",
+            "secondary": "#2d6f82",
+            "text": "#2d6f82"
+          },
+          "type": 0,
+          "userCount": 13695
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 157
+      },
+      "score": 511377.38,
+      "type": "player"
+    },
+    {
+      "entity": {
+        "category": null,
+        "country": {
+          "alpha2": "NL",
+          "name": "Netherlands"
+        },
+        "disabled": null,
+        "displayInverseHomeAwayTeams": null,
+        "firstName": "",
+        "gender": null,
+        "id": 1132094,
+        "lastName": "",
+        "name": "Mikki van Sas",
+        "nameCode": null,
+        "national": null,
+        "position": "G",
+        "ranking": null,
+        "shortName": "M. v. Sas",
+        "slug": "mikki-van-sas",
+        "sport": null,
+        "team": {
+          "country": {
+            "alpha2": "EN",
+            "name": "England"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 36544,
+          "name": "Manchester City U21",
+          "nameCode": "MAC",
+          "national": false,
+          "ranking": null,
+          "shortName": "Man. City",
+          "slug": "manchester-city-u21",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#82c2ff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "type": 0,
+          "userCount": 8310
+        },
+        "teamColors": null,
+        "type": null,
+        "userCount": 152
+      },
+      "score": 496100.5,
+      "type": "player"
+    }
+  ]
+}
