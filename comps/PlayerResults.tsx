@@ -5,7 +5,6 @@ import {
   List,
   Text,
   Button,
-  ButtonGroup,
   Icon,
 } from "@ui-kitten/components";
 import { View, Pressable } from "react-native";

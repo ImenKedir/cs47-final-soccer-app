@@ -5,13 +5,15 @@ import {
   List,
   Text,
   Button,
-  ButtonGroup,
+  Icon,
 } from "@ui-kitten/components";
-import { View } from "react-native";
+import { View, Pressable } from "react-native";
 import { useState } from "react";
 import TeamMoreInfo from "./TeamMoreInfo";
 
 const TeamResultsHeader = ({ item }) => {
+  const [heart, setHeart] = useState(true);
+
   return (
     <Layout
       style={{
@@ -22,6 +24,17 @@ const TeamResultsHeader = ({ item }) => {
       }}
     >
       <Text category="h4">{item.entity.shortName}</Text>
+      <Pressable onPress={() => setHeart(!heart)}>
+        {heart ? (
+          <Icon
+            style={{ width: 32, height: 32 }}
+            name="heart-outline"
+            fill="#8F9BB3"
+          />
+        ) : (
+          <Icon style={{ width: 32, height: 32 }} name="heart" fill="#8F9BB3" />
+        )}
+      </Pressable>
     </Layout>
   );
 };
