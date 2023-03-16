@@ -7,6 +7,7 @@ import {
   Button,
   ButtonGroup,
 } from "@ui-kitten/components";
+import { View } from "react-native";
 
 const TeamResults = ({ data }) => {
   return (
@@ -42,7 +43,7 @@ const TeamResults = ({ data }) => {
             <Text>{item.entity.nameCode}</Text>
             <Text>{item.entity.country.name}</Text>
           </Layout>
-          <Layout style={{ marginVertical: 8 }} />
+          <View style={{ marginVertical: 8 }} />
           <ButtonGroup
             style={{ flex: 1, justifyContent: "space-between" }}
             appearance="outline"

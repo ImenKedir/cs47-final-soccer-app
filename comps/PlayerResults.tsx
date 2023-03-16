@@ -8,6 +8,7 @@ import {
   ButtonGroup,
   Modal,
 } from "@ui-kitten/components";
+import { View } from "react-native";
 import { useState } from "react";
 
 const PlayerResultHeader = ({ item }) => {
@@ -42,11 +43,12 @@ const PlayerResultFooter = ({ item, setVisible }) => {
         <Text>{item.entity.team.name}</Text>
         <Text>{item.entity.country.name}</Text>
       </Layout>
+      <View style={{ height: 8 }} />
       <ButtonGroup
         style={{ flex: 1, justifyContent: "space-between" }}
         appearance="outline"
       >
-        <Layout style={{ marginVertical: 8 }} />
+        <View style={{ height: 8 }} />
         <Button style={{ flex: 1 }} onPress={() => setVisible(true)}>
           More
         </Button>
@@ -88,7 +90,7 @@ const PlayerModal = ({ item, visible, setVisible }) => {
           <Text>{item.entity.team.name}</Text>
           <Text>{item.entity.country.name}</Text>
         </Layout>
-        <Layout style={{ height: 8 }} />
+        <View style={{ height: 8 }} />
         <Button appearance="outline" onPress={() => setVisible(false)}>
           DISMISS
         </Button>

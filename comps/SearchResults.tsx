@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
-import { TabView, Tab } from "@ui-kitten/components";
+import { TabView, Tab, Icon } from "@ui-kitten/components";
 import { PlayerResults, TeamResults } from ".";
-
+import * as fakeData from "../dummyResponse.json";
 // @ts-ignore
 import { RAPID_API_KEY, RAPID_API_HOST } from "@env";
-import * as fakeData from "../dummyResponse.json";
-const defaultData = fakeData.results;
+
+const PlayersIcon = (props) => <Icon name="person" {...props} />;
+
+const TeamsIcon = (props) => <Icon name="people" {...props} />;
 
 const SearchResults = ({ queryUrl }) => {
   const [selectedTab, setSelectedTab] = useState(0);
@@ -33,20 +35,18 @@ const SearchResults = ({ queryUrl }) => {
   }, [queryUrl]);
 
   return (
-    <>
-      <TabView
-        style={{ flex: 1, width: "100%" }}
-        selectedIndex={selectedTab}
-        onSelect={(index) => setSelectedTab(index)}
-      >
-        <Tab style={{ padding: 8 }} title="Players">
-          <PlayerResults data={data} />
-        </Tab>
-        <Tab style={{ padding: 8 }} title="Teams">
-          <TeamResults data={data} />
-        </Tab>
-      </TabView>
-    </>
+    <TabView
+      style={{ flex: 1, width: "100%" }}
+      selectedIndex={selectedTab}
+      onSelect={(index) => setSelectedTab(index)}
+    >
+      <Tab title="Players" icon={PlayersIcon}>
+        <PlayerResults data={data} />
+      </Tab>
+      <Tab title="Teams" icon={TeamsIcon}>
+        <TeamResults data={data} />
+      </Tab>
+    </TabView>
   );
 };
 

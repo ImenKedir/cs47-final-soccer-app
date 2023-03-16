@@ -3,6 +3,7 @@ import * as eva from "@eva-design/eva";
 import {
   ApplicationProvider,
   IconRegistry,
+  Icon,
   BottomNavigation,
   BottomNavigationTab,
 } from "@ui-kitten/components";
@@ -13,13 +14,25 @@ import { SearchScreen, SavedScreen } from "./screens";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
+const SearchIcon = (props) => <Icon {...props} name="search" />;
+
+const SavedIcon = (props) => <Icon {...props} name="clipboard" />;
+
 const BottomTabBar = ({ navigation, state }) => (
   <BottomNavigation
     selectedIndex={state.index}
     onSelect={(index) => navigation.navigate(state.routeNames[index])}
   >
-    <BottomNavigationTab style={{padding: 8}} title="Search" />
-    <BottomNavigationTab style={{padding: 8}} title="Saved" />
+    <BottomNavigationTab
+      icon={SearchIcon}
+      style={{ padding: 8 }}
+      title="Search"
+    />
+    <BottomNavigationTab
+      icon={SavedIcon}
+      style={{ padding: 8 }}
+      title="Saved"
+    />
   </BottomNavigation>
 );
 
