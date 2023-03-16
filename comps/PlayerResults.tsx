@@ -6,7 +6,6 @@ import {
   Text,
   Button,
   ButtonGroup,
-  Avatar,
 } from "@ui-kitten/components";
 import { View } from "react-native";
 import { useState } from "react";
