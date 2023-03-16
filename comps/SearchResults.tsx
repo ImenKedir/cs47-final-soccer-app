@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { TabView, Tab, Icon, Text, Spinner } from "@ui-kitten/components";
-import { PlayerResults, TeamResults } from ".";
+import PlayerResults from "./PlayerResults";
+import TeamResults from "./TeamResults";
 import * as fakeData from "../dummyResponse.json";
 // @ts-ignore
 import { RAPID_API_KEY, RAPID_API_HOST } from "@env";
@@ -38,10 +39,8 @@ const SearchResults = ({ queryUrl }) => {
     }
   }, [queryUrl]);
 
-  console.log(loading);
-
   if (loading) {
-    return <Spinner size='giant'/>
+    return <Spinner size="giant" />;
   }
 
   if (!data) {

@@ -10,7 +10,7 @@ import {
 } from "@ui-kitten/components";
 import { View } from "react-native";
 import { useState } from "react";
-import { PlayerInfo } from ".";
+import PlayerInfo from "./PlayerInfo";
 
 const PlayerResultHeader = ({ item }) => {
   return (
