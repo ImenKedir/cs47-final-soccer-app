@@ -10,8 +10,7 @@ const TeamsIcon = (props) => <Icon name="people" {...props} />;
 
 export default SavedScreen = () => {
   const [selectedTab, setSelectedTab] = useState(0);
-  const { saved, setSaved } = useContext(SavedContext);
-  console.log(saved)
+  const { saved } = useContext(SavedContext);
 
   return (
     <TabView

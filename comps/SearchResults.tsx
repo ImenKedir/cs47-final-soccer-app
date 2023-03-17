@@ -50,8 +50,6 @@ const SearchResults = ({ queryUrl }) => {
       </Text>
     );
   }
-  
-  console.log(data)
 
   return (
     <TabView
