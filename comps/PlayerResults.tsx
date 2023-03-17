@@ -8,7 +8,7 @@ import {
   Icon,
 } from "@ui-kitten/components";
 import { View, Pressable } from "react-native";
-import { useState, useContext } from "react";
+import { useState, useEffect, useContext } from "react";
 import PlayerMoreInfo from "./PlayerMoreInfo";
 import SavedContext from "../util/SavedContext";
 
@@ -16,11 +16,13 @@ const PlayerResultHeader = ({ item }) => {
   // @ts-ignore
   const { saved, setSaved } = useContext(SavedContext);
 
-  const isSaved = saved.some(
-    (savedItem) => savedItem.entity.id === item.entity.id
+  const [heart, setHeart] = useState(
+    saved.some((savedItem) => savedItem.entity.id === item.entity.id)
   );
 
-  const [heart, setHeart] = useState(isSaved);
+  useEffect(() => {
+    setHeart(saved.some((savedItem) => savedItem.entity.id === item.entity.id));
+  }, [saved]);
 
   const handelSave = () => {
     if (heart) {
