@@ -8,11 +8,30 @@ import {
   Icon,
 } from "@ui-kitten/components";
 import { View, Pressable } from "react-native";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import TeamMoreInfo from "./TeamMoreInfo";
+import SavedContext from "../util/SavedContext";
 
 const TeamResultsHeader = ({ item }) => {
-  const [heart, setHeart] = useState(true);
+  // @ts-ignore
+  const { saved, setSaved } = useContext(SavedContext);
+
+  const isSaved = saved.some(
+    (savedItem) => savedItem.entity.id === item.entity.id
+  );
+
+  const [heart, setHeart] = useState(isSaved);
+
+  const handelSave = () => {
+    if (heart) {
+      setSaved(
+        saved.filter((savedItem) => savedItem.entity.id !== item.entity.id)
+      );
+    } else {
+      setSaved([...saved, item]);
+    }
+    setHeart(!heart);
+  };
 
   return (
     <Layout
@@ -24,16 +43,12 @@ const TeamResultsHeader = ({ item }) => {
       }}
     >
       <Text category="h4">{item.entity.shortName}</Text>
-      <Pressable onPress={() => setHeart(!heart)}>
-        {heart ? (
-          <Icon
-            style={{ width: 32, height: 32 }}
-            name="heart-outline"
-            fill="#8F9BB3"
-          />
-        ) : (
-          <Icon style={{ width: 32, height: 32 }} name="heart" fill="#8F9BB3" />
-        )}
+      <Pressable style={{ width: 40, height: 40 }} onPress={handelSave}>
+        <Icon
+          style={{ width: 32, height: 32 }}
+          name={heart ? "heart" : "heart-outline"}
+          fill="#8F9BB3"
+        />
       </Pressable>
     </Layout>
   );
